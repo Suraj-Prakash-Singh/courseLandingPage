@@ -15,8 +15,8 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="w-2/6 flex items-center justify-evenly text-white font-medium">
-                <button className="bg-inherit rounded-[20px] px-10 py-2 border">SIGN IN</button>
-                <button className="bg-[#FF6905] rounded-[20px] px-6 py-2">Contact US</button>
+                <button className="bg-inherit rounded-[20px] px-10 py-2 border ml-20 shadow-md">SIGN IN</button>
+                <button className="bg-[#FF6905] rounded-[20px] px-6 py-2 shadow-md">Contact US</button>
             </div>
             <div>
 
