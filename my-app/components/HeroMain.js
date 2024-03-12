@@ -37,7 +37,7 @@ const HeroMain = () => {
                         <option>Program 4</option>
                     </select>
                 </div>
-                <button className="ml-36 my-5 overflow-hidden shadow-lg flex items-center bg-[#FF6905] text-white px-5 py-2 rounded-[50px] text-center hover:bg-orange-400">Find a centre<Image className="ml-5 w-2"src={arrowRight}/></button>
+                <button className="ml-[150px] my-5 overflow-hidden shadow-lg flex items-center bg-[#FF6905] text-white px-5 py-2 rounded-[50px] text-center hover:bg-orange-400">Find a centre<Image className="ml-5 w-2"src={arrowRight}/></button>
             </div>
         </div>
     )
