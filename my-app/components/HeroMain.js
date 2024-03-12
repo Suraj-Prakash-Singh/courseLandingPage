@@ -6,13 +6,12 @@ import Image from "next/image";
 const HeroMain = () => {
     return (
         <div className="flex w-full h-max items-center justify-around">
-            <Image className="h-72"src={map}/>
+            <Image className="h-72 bg-orange-100/15"src={map}/>
             <div className="w-4/6">
                 <p className="w-max mb-5">Our ever-growing number of centers, spread across India, are a melting pot of<br/> 
                     absolute. They are hubs for academic excellence where dreams are nurtured, skills<br/> 
                     are honed, and futures are built.
                 </p>
-                
                 <ul className="font-medium">
                     <li className="flex mb-2"><Image className="mr-2" src={checkBox}/>Personalized learning from top educators in your very own city</li>
                     <li className="flex mb-2"><Image className="mr-2" src={checkBox}/>State-of-the-Art Facilities with latest technologies</li>
